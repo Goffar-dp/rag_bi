@@ -1,0 +1,41 @@
+# Core Python packages
+langchain==0.1.13
+langchain-community==0.0.29
+langchain-core==0.1.33
+langchain-google-genai==0.0.11
+streamlit==1.32.0
+pyngrok==7.0.0
+pdfplumber==0.10.0
+PyMuPDF==1.23.25
+python-docx==1.1.0
+docx2txt==0.8
+langdetect==1.0.9
+accelerate==0.27.2
+bitsandbytes==0.43.0
+transformers==4.38.2
+sentence-transformers==2.5.1
+
+# OCR and PDF processing
+pytesseract==0.3.10
+pdf2image==1.17.0
+pillow==10.2.0
+
+# Vector database and embeddings
+chromadb==0.4.24
+pypdf==4.1.0
+
+# Additional utilities
+pandas==2.2.1
+numpy==1.26.4
+python-multipart==0.0.6
+
+# Hugging Face integration
+huggingface-hub==0.21.4
+
+# FastAPI (for API version)
+fastapi==0.110.0
+uvicorn==0.27.1
+
+# System dependencies (for Linux/Colab)
+# Note: These must be installed separately via apt
+# tesseract-ocr tesseract-ocr-ben poppler-utils libtesseract-dev
